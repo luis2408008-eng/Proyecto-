@@ -1,1 +1,93 @@
-/* You can add global styles to this file, and also import other style files */
+/* Fondo general */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+/* Logo */
+.logo {
+  height: 65px;
+  width: auto;
+  border-radius: 10px;
+}
+
+/* Acrónimo HOWDA */
+.navbar h1 {
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+/* Significado del acrónimo */
+.header-meaning span {
+  color: #bfbfbf;
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+/* Índice / menú interno */
+.indice {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 0;
+  position: relative;
+}
+
+.indice .nav-container {
+  position: absolute;
+  right: 3rem; /* separación desde el margen derecho */
+}
+
+.indice .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: right;
+}
+
+.indice .nav-link {
+  color: #0d6efd;
+  font-weight: 500;
+  margin-left: 1rem;
+  transition: color 0.2s ease;
+}
+
+.indice .nav-link:hover {
+  color: #084298;
+  text-decoration: underline;
+}
+
+.indice .nav-link.active {
+  color: #0a58ca;
+  font-weight: 600;
+}
+
+/* Secciones */
+h2 {
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0.2rem 0;
+}
